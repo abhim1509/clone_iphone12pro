@@ -1,0 +1,11 @@
+@use "./base/fonts";
+@use "./base/reset.scss";
+
+@use "./layout/header";
+@use "./layout/body";
+
+@use "./abstracts/variables";
+
+html{
+    background-color: variables.$color-primary;
+}
